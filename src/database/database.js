@@ -1,7 +1,7 @@
 import Sequelize from "sequelize";
 
 export const sequelize= new Sequelize(
-    'prueba',
+    'pagila2',
     'postgres',
     'Andres1353',{
     host: 'localhost',
