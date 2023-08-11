@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import Sequelize from "sequelize";
 
-const filmDefinition = (sequelize)=> {
+const defineFilm = (sequelize)=> {
   return sequelize.define('film', {
     film_id: {
       autoIncrement: true,
@@ -102,4 +102,4 @@ const filmDefinition = (sequelize)=> {
   });
 };
 
-export default filmDefinition
+export default defineFilm
